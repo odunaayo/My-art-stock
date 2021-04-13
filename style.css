@@ -1,0 +1,83 @@
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 40px;
+}
+.flex-item {
+  margin-right: 0px;
+}
+
+.myArtstock {
+  margin-bottom: 70px;
+}
+
+.header {
+  margin-bottom: 26px;
+}
+html {
+  box-sizing: border-box;
+  width: 1440px;
+  height: 1024px;
+  background: #ffffff;
+}
+body {
+  margin: 0;
+  padding: 50px;
+}
+
+p {
+  margin-top: 8px;
+  color: #3048b5;
+}
+.homepage_logo {
+  margin: 192px;
+  padding: 67px;
+}
+.cms-logo {
+  margin-bottom: 67px;
+}
+.home_slider-subtitle {
+  color: black;
+}
+
+.slider-one {
+  width: 758px;
+  height: 334px;
+  left: 67px;
+  top: 461px;
+  margin-right: 50%;
+}
+.home-slider {
+  height: 200px;
+  width: 60%;
+  border-radius: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 12px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  box-sizing: border-box;
+  display: flexbox;
+  float: none;
+  line-height: 16px;
+  position: static;
+  z-index: auto;
+  margin: 0%;
+}
+.flex-item2 {
+  margin-right: 0px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+}
