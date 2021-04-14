@@ -4,24 +4,25 @@
   flex-wrap: wrap;
   justify-content: left;
   gap: 40px;
-}
-.flex-item {
-  margin-right: 0px;
+  width: 100%;
+  max-width: 1440px;
 }
 
-.myArtstock {
-  margin-bottom: 70px;
+.flex-item {
+  margin-right: 0px;
 }
 
 .header {
   margin-bottom: 26px;
 }
+
 html {
   box-sizing: border-box;
-  width: 1440px;
-  height: 1024px;
+  /* width: 1440px;
+  height: 1024px; */
   background: #ffffff;
 }
+
 body {
   margin: 0;
   padding: 50px;
@@ -29,15 +30,24 @@ body {
 
 p {
   margin-top: 8px;
+  margin-bottom: 0;
   color: #3048b5;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
+
 .homepage_logo {
   margin: 192px;
   padding: 67px;
 }
+
 .cms-logo {
   margin-bottom: 67px;
 }
+
 .home_slider-subtitle {
   color: black;
 }
@@ -49,6 +59,7 @@ p {
   top: 461px;
   margin-right: 50%;
 }
+
 .home-slider {
   height: 200px;
   width: 60%;
@@ -72,12 +83,36 @@ p {
   z-index: auto;
   margin: 0%;
 }
+
 .flex-item2 {
   margin-right: 0px;
 }
+
 .flexbox {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
+}
+
+
+
+.landing__title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #142367;
+  margin-bottom: 26px;
+}
+
+.landing__logo {
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width:1025px) {
+  .flexbox-container {
+    width: 80%;
+  }
 }
